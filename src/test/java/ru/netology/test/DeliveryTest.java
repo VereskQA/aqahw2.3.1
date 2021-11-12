@@ -1,4 +1,5 @@
-package ru.netology.delivery.test;
+/*
+package ru.netology.test;
 
         import lombok.val;
         import org.junit.jupiter.api.BeforeEach;
@@ -38,3 +39,4 @@ package ru.netology.delivery.test;
         // имени и номера телефона без создания пользователя в методе generateUser(String locale) в датагенераторе
         }
         }
+*/

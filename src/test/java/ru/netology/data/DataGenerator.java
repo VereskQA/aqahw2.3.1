@@ -1,3 +1,4 @@
+/*
 package ru.netology.data;
 
 import com.github.javafaker.Faker;
@@ -20,8 +21,8 @@ public class DataGenerator {
     }
 
     public static String generateCity(String locale) {
-        // TODO: добавить логику для объявления переменной city и задания её значения, генерацию можно выполнить
-        // с помощью Faker, либо используя массив валидных городов и класс Random
+        Faker faker = new Faker(new Locale(locale));
+        String city = faker.address().city();
         return city;
     }
 
@@ -54,4 +55,4 @@ public class DataGenerator {
         String name;
         String phone;
     }
-}
+}*/
